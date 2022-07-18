@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beke-Le-Beke cinema</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: gray;
+            font-size: 14px;
+        }
+        nav{
+            background: #594848;
+            width: 100%;
+            overflow: auto;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            float: left;
+        }
+        nav a{
+            width: 120px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background: #594848;
+            font-size: 17px;
+            color: white;
+            padding: 20px 10px;
+            font-family: arial;
+        }
+        .container{
+            width: 80%;
+            margin: 50px auto;
+        }
+        .contact-box{
+            background: yellow;
+            display: flex;
+        }
+        .contact-left{
+            flex-basis: 60%;
+            padding: 40px 60px;
+        }
+        .contact-right{
+            flex-basis: 40%;
+            padding: 40px;
+            background: green;
+            color: #1c0091;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        .container p{
+            margin-bottom: 40px;
+            color: white;
+        }
+        .input-row{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .input-row .input-group{
+            flex-basis: 45%;
+        }
+        input{
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            padding-bottom: 5px;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        label{
+            margin-bottom: 6px;
+            display: block;
+            color: red;
+        }
+        button{
+            background: #1c00b5;
+            width: 100%;
+            border: none;
+            outline: none;
+            color: #fff;
+            height: 35px;
+            border-radius: 30px;
+            margin-top: 20px;
+            box-shadow: 0px 5px 15px 0px rgba(red, green, blue, alpha);
+        }
+        .contact-left h3{
+            color: black;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .contact-right h3{
+            color: black;
+            font-weight: 600;
+            margin-bottom: 30px
+        }
+    tr td:first-child{
+        padding-right: 20px;
+    }
+    tr td{
+        padding-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="undisputed.html">undisputed</a></li>
+            <li><a href="wrongturn.html">wrongturn</a></li>
+            <li><a href="cartoons.html">cartoons</a></li>
+            <li><a href="fast&furious.html">fast&furious</a></li>
+            <li><a href="upcoming.html">upcoming</a></li>
+            <li><a href="ContactUs.html">contact us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>connect with us</h1>
+        <p>we will be more puntual to your queries and assist you accordingly</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>send your request</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Dikwe Dlan">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="+26775109793">
+                        </div>
+
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="dikwedlan@gmail.com">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea rows="4" placeholder="Your message"></textarea>
+                    <button type="submit">SEND</button>
+
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>reach us</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>bubblejugcn@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>3164439</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>Private bag 9, Gumare <br>
+                            Botswana
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
